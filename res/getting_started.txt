@@ -1,0 +1,16 @@
+
+git init
+
+git config --local user.name "gkromi"
+
+git config --local user.email "<>"
+
+git add README.md
+
+git status
+
+git commit -m "Add README.md file"
+
+git remote add origin https://github.com/gkromi/test01.git
+
+git push --set-upstream origin master
